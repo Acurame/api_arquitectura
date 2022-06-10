@@ -10,7 +10,7 @@ use App\Models\Fabricante;
 class Vehículo extends Component
 {
     public $vehículos,$numero_placas,$tipo,$piloto_id,$color_id,$fabricante_id,$modal = false;
-    public $pilotos,$Colores,$fabricantes;
+    public $pilotos,$Colores,$fabricantes,$idpilot;
     public function render()
     {
         $this->pilotos = Piloto::all();
